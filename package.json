@@ -6,7 +6,7 @@
   "module": "dist/esm/index.js",
   "type": "module",
   "scripts": {
-    "build": "rollup -c && tsc"
+    "build": "rollup -c"
   },
   "homepage": "https://github.com/gwansikk/github-contributions",
   "repository": {
