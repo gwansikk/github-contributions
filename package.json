@@ -1,0 +1,28 @@
+{
+  "name": "@gwansikk/github-contributions",
+  "version": "0.1.0",
+  "description": "github-contributions",
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c && tsc"
+  },
+  "homepage": "https://github.com/gwansikk/github-contributions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gwansikk/github-contributions.git"
+  },
+  "author": "gwansikk",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cheerio": "^0.22.35",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.3.2"
+  }
+}
