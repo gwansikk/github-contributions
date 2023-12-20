@@ -5,7 +5,7 @@ type ToolTips = {
   value: number;
 };
 
-type Contributions = {
+export type Contributions = {
   [key: string]: number;
 };
 
@@ -35,9 +35,9 @@ const parseContributionsHtml = (html: string) => {
   return contributions;
 };
 
-export const getContributions = (target: string): Promise<Contributions> => {
+export const getContributions = (githubName: string): Promise<Contributions> => {
   return new Promise((resolve, reject) => {
-    const url = `https://github.com/users/${target}/contributions`;
+    const url = `https://github.com/users/${githubName}/contributions`;
 
     fetch(url)
       .then((response) => {
@@ -50,7 +50,7 @@ export const getContributions = (target: string): Promise<Contributions> => {
         resolve(parseContributionsHtml(html));
       })
       .catch((error) => {
-        reject(`Error fetching contributions for ${target}: ${error.message}`);
+        reject(`Error fetching contributions for ${githubName}: ${error.message}`);
       });
   });
 };
