@@ -1,13 +1,13 @@
 import { load } from "cheerio";
 
-interface ToolTips {
+type ToolTips = {
   id: string;
   value: number;
-}
+};
 
-interface Contributions {
+type Contributions = {
   [key: string]: number;
-}
+};
 
 const parseTooltips = (html: string): Array<ToolTips> => {
   const $ = load(html);
@@ -35,7 +35,7 @@ const parseContributionsHtml = (html: string) => {
   return contributions;
 };
 
-export const getContributions = (target: string) => {
+export const getContributions = (target: string): Promise<Contributions> => {
   return new Promise((resolve, reject) => {
     const url = `https://github.com/users/${target}/contributions`;
 
