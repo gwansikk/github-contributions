@@ -1,6 +1,6 @@
 {
   "name": "@gwansikk/github-contributions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Quick and easy access to GitHub users' contributions.",
   "main": "dist/index.cjs",
   "module": "dist/esm/index.esm.js",
@@ -33,5 +33,10 @@
   "dependencies": {
     "@types/cheerio": "^0.22.35",
     "cheerio": "^1.0.0-rc.12"
-  }
+  },
+  "keywords": [
+    "github",
+    "contributions",
+    "github contributions"
+  ]
 }
