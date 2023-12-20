@@ -1,10 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es2016",
+    "outDir": "./dist",
     "module": "ESNext",
-    "lib": ["es5", "es6", "dom"],
-    "declaration": true,
-    "outDir": "dist",
-    "strict": true
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true
   }
 }
