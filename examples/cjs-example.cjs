@@ -1,5 +1,5 @@
 // cjs-example
-const { getContributions } = require("../dist/cjs/index.cjs");
+const { getContributions } = require("../dist/index.cjs");
 
 const username = "gwansikk";
 

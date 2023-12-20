@@ -1,5 +1,5 @@
 // esm-example
-import { getContributions } from "../dist/esm/index.js";
+import { getContributions } from "../dist/esm/index.esm.js";
 
 const username = "gwansikk";
 

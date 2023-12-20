@@ -3,7 +3,7 @@ import packageJson from "./package.json";
 import { terser } from "rollup-plugin-terser";
 
 export default {
-  input: "lib/index.ts",
+  input: "./src/index.ts",
   output: [
     {
       file: packageJson.main,
