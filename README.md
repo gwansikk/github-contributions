@@ -41,3 +41,16 @@ getContributions(username)
     console.error("Error fetching contributions:", error);
   });
 ```
+
+## Example
+
+```js
+// getContributions(githubUsername) Output
+{
+  '2022-12-18': 3,
+  '2022-12-25': 9,
+  ,,, // more dates
+  '2023-12-02': 6,
+  '2023-12-09': 7,
+}
+```
