@@ -1,8 +1,8 @@
-<h1 align="center">github-contributions</h1>
-
-<p align="center">Quick and easy access to GitHub users' contributions.</p>
-
 <div align="center">
+
+<h1>github-contributions</h1>
+
+<p >Quick and easy access to GitHub users' contributions.</p>
 
 [![npm version](https://img.shields.io/npm/v/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 [![npm downloads](https://img.shields.io/npm/dt/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
@@ -28,7 +28,10 @@ yarn add @gwansikk/github-contributions
 
 ## Usage
 
-```js
+> [!IMPORTANT]\
+> The current version is an unstable version, still under development, so there may be frequent changes to the code.
+
+```javascript
 import { getContributions } from "@gwansikk/github-contributions";
 
 const username = "gwansikk";
@@ -42,9 +45,7 @@ getContributions(username)
   });
 ```
 
-## Example
-
-```js
+```javascript
 // getContributions(githubUsername) Output
 {
   '2022-12-18': 3,
@@ -54,3 +55,15 @@ getContributions(username)
   '2023-12-09': 7,
 }
 ```
+
+## Support
+
+| Type       | State | Version  |
+| ---------- | ----- | -------- |
+| Browsers   | ✅    | >= 0.1.2 |
+| ES Modules | ✅    | >= 0.1.2 |
+| CommonJS   | ✅    | >= 0.1.2 |
+
+## Contribute
+
+Information describing how to contribute can be found in the file CONTRIBUTING.md
