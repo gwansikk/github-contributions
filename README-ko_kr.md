@@ -1,7 +1,7 @@
 <div align="center">
 
 <h1>github-contributions</h1>
-<p >Quick and easy access to GitHub users' contributions.</p>
+<p >GitHub 사용자의 기여도를 빠르고 쉽게 확인할 수 있습니다.</p>
 
 [![npm version](https://img.shields.io/npm/v/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 [![npm downloads](https://img.shields.io/npm/dt/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
@@ -30,7 +30,7 @@ yarn add @gwansikk/github-contributions
 ## Usage
 
 > [!IMPORTANT]\
-> The current version is an unstable version, still under development, so there may be frequent changes to the code.
+> 현재 버전은 아직 개발 중인 불안정한 버전이므로 코드에 자주 변경이 있을 수 있습니다.
 
 ```javascript
 import { getContributions } from "@gwansikk/github-contributions";
@@ -59,12 +59,13 @@ getContributions(username)
 
 ## Support
 
-| Type       | Status | Version  |
-| ---------- | ------ | -------- |
-| Browsers   | ✅     | <= 0.1.2 |
-| ES Modules | ✅     | <= 0.1.2 |
-| CommonJS   | ✅     | <= 0.1.2 |
+| 타입       | 상태 | 버전     |
+| ---------- | ---- | -------- |
+| Browsers   | ✅   | <= 0.1.2 |
+| ES Modules | ✅   | <= 0.1.2 |
+| CommonJS   | ✅   | <= 0.1.2 |
 
 ## Contribute
 
-Information describing how to contribute can be found in the file CONTRIBUTING.md
+해당 프로젝트에 기여하고 싶다면 아래 문서를 참고해주세요.  
+[CONTRIBUTING.md](./CONTRIBUTING.md)
