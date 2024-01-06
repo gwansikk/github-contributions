@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>github-contributions</h1>
+<h1>🌱 github-contributions</h1>
 <p >Quick and easy access to GitHub users' contributions.</p>
 
 [![npm version](https://img.shields.io/npm/v/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
@@ -12,6 +12,8 @@
 [🇰🇷 한국어](./README-ko_kr.md)
 
 </div>
+
+# Concepts
 
 ## Installation
 
