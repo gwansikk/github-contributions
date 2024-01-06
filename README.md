@@ -13,7 +13,7 @@
 
 </div>
 
-# Concepts
+## Concepts
 
 ## Installation
 
@@ -69,4 +69,5 @@ getContributions(username)
 
 ## Contribute
 
-Information describing how to contribute can be found in the file CONTRIBUTING.md
+Information describing how to contribute can be found in the file.  
+[CONTRIBUTING.md](./CONTRIBUTING.md)
