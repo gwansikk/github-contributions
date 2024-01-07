@@ -1,19 +1,17 @@
 <div align="center">
 
 <h1>🌱 github-contributions</h1>
-<p >Quick and easy access to GitHub users' contributions.</p>
+<p><b>Quick and easy access to GitHub users' contributions.</b></p>
 
 [![npm version](https://img.shields.io/npm/v/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 [![npm downloads](https://img.shields.io/npm/dt/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 
-[🇺🇸 English](./README.md)
+[English](./README.md)
 &nbsp;&nbsp;•&nbsp;&nbsp;
-[🇰🇷 한국어](./README-ko_kr.md)
+[한국어](./README-ko_kr.md)
 
 </div>
-
-## Concepts
 
 ## Installation
 
@@ -67,7 +65,7 @@ getContributions(username)
 | ES Modules | ✅     | <= 0.1.2 |
 | CommonJS   | ✅     | <= 0.1.2 |
 
-## Contribute
+## Contributing
 
 Information describing how to contribute can be found in the file.  
 [CONTRIBUTING.md](./CONTRIBUTING.md)

@@ -1,19 +1,17 @@
 <div align="center">
 
 <h1>🌱 github-contributions</h1>
-<p >GitHub 사용자의 기여도를 빠르고 쉽게 확인할 수 있습니다.</p>
+<p><b>GitHub 사용자의 기여도를 빠르고 쉽게 확인할 수 있습니다.</b></p>
 
 [![npm version](https://img.shields.io/npm/v/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 [![npm downloads](https://img.shields.io/npm/dt/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
 
-[🇺🇸 English](./README.md)
+[English](./README.md)
 &nbsp;&nbsp;•&nbsp;&nbsp;
-[🇰🇷 한국어](./README-ko_kr.md)
+[한국어](./README-ko_kr.md)
 
 </div>
-
-## Concepts
 
 ## Installation
 
@@ -67,7 +65,7 @@ getContributions(username)
 | ES Modules | ✅   | <= 0.1.2 |
 | CommonJS   | ✅   | <= 0.1.2 |
 
-## Contribute
+## Contributing
 
 해당 프로젝트에 기여하고 싶다면 아래 문서를 참고해주세요.  
 [CONTRIBUTING.md](./CONTRIBUTING.md)
