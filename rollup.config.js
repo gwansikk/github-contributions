@@ -1,26 +1,35 @@
 import typescript from "rollup-plugin-typescript2";
-import packageJson from "./package.json";
 import { terser } from "rollup-plugin-terser";
+import dts from "rollup-plugin-dts";
 
-export default {
-  input: "./src/index.ts",
-  output: [
-    {
-      file: packageJson.main,
-      format: "cjs",
-      sourcemap: true,
-    },
-    {
-      file: packageJson.module,
-      format: "esm",
-      sourcemap: true,
-    },
-  ],
-  external: [...Object.keys(packageJson.dependencies || {})],
-  plugins: [
-    typescript({
-      typescript: require("typescript"),
-    }),
-    terser(),
-  ],
-};
+import pkg from "./package.json";
+
+export default [
+  {
+    input: "src/index.ts",
+    output: [
+      {
+        file: pkg.main,
+        format: "cjs",
+        sourcemap: true,
+      },
+      {
+        file: pkg.module,
+        format: "es",
+        sourcemap: true,
+      },
+    ],
+    external: [...Object.keys(pkg.dependencies || {})],
+    plugins: [
+      typescript({
+        typescript: require("typescript"),
+      }),
+      terser(),
+    ],
+  },
+  {
+    input: "src/index.ts",
+    output: [{ file: "dist/index.d.ts", format: "es" }],
+    plugins: [dts.default()],
+  },
+];

@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
+    "target": "ESNext",
     "module": "ESNext",
-    "target": "es5",
-    "lib": ["es6", "dom"],
-    "strict": true,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "importHelpers": true,
     "esModuleInterop": true,
-    "declaration": true
-  }
+    "strict": true,
+    "sourceMap": true,
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
