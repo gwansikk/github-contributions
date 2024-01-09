@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>🌱 github-contributions</h1>
+<h1>🌿 github-contributions</h1>
 <p><b>Quick and easy access to GitHub users' contributions.</b></p>
 
 [![npm version](https://img.shields.io/npm/v/@gwansikk/github-contributions?logo=npm)](https://www.npmjs.com/package/@gwansikk/github-contributions)
@@ -56,14 +56,6 @@ getContributions(username)
   '2023-12-09': 7,
 }
 ```
-
-## Support
-
-| Type       | Status | Version  |
-| ---------- | ------ | -------- |
-| Browsers   | ✅     | <= 0.1.2 |
-| ES Modules | ✅     | <= 0.1.2 |
-| CommonJS   | ✅     | <= 0.1.2 |
 
 ## Contributing
 
